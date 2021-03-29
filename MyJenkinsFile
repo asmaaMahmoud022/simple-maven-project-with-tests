@@ -1,1 +1,10 @@
 
+node {
+    def mvnHome
+
+    stage('Build') {
+        // Run the maven build
+        echo 'Hello from jenkins file'
+    }
+
+}
